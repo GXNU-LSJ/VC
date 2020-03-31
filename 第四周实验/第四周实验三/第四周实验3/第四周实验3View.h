@@ -19,6 +19,7 @@ public:
 public:
 	int N;
 	CArray<CRect, CRect> cr;
+	int f[5] = {1,1,1,1,1};
 	bool set;
 // ÖØÐ´
 public:
