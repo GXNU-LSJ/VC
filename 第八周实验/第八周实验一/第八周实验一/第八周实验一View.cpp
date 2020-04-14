@@ -89,12 +89,9 @@ void C第八周实验一View::OnLButtonDblClk(UINT nFlags, CPoint point)
 	CFileDialog file(true);
 	int n = file.DoModal();
 	CString s;
-
 	if (n == IDOK) {
 		s = file.GetPathName();
 		GetDC()->TextOutW(200, 200, s);
 	}
-
-
 	CView::OnLButtonDblClk(nFlags, point);
 }
