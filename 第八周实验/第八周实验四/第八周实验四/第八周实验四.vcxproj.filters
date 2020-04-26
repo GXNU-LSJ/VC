@@ -21,25 +21,16 @@
     <ClInclude Include="第八周实验四.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="第八周实验四Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="MainFrm.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="第八周实验四Doc.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="第八周实验四View.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="Resource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Dialog.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Dialog2.h">
@@ -50,19 +41,10 @@
     <ClCompile Include="第八周实验四.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="第八周实验四Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="stdafx.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="MainFrm.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="第八周实验四Doc.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="第八周实验四View.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Dialog.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Dialog2.cpp">
@@ -80,13 +62,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\第八周实验四Doc.ico">
-      <Filter>资源文件</Filter>
-    </Image>
     <Image Include="res\第八周实验四.ico">
-      <Filter>资源文件</Filter>
-    </Image>
-    <Image Include="res\Toolbar.bmp">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>

@@ -10,10 +10,10 @@ class Dialog2 : public CDialogEx
 public:
 	Dialog2(CWnd* pParent = NULL);   // 标准构造函数
 	virtual ~Dialog2();
-
+	
 // 对话框数据
 #ifdef AFX_DESIGN_TIME
-	enum { IDD = IDD_DIALOG2 };
+	enum { IDD = IDD_DIALOG1 };
 #endif
 
 protected:
@@ -21,6 +21,5 @@ protected:
 
 	DECLARE_MESSAGE_MAP()
 public:
-	afx_msg void OnEnChangeEdit1();
 	CString a;
 };

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{213908CD-A8D7-43E5-9E7C-9BFEFAABA3A4}</ProjectGuid>
+    <ProjectGuid>{99586C8B-E8F1-4D2B-A0E0-503EE7560AF3}</ProjectGuid>
     <RootNamespace>第八周实验四</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
     <Keyword>MFCProj</Keyword>
@@ -185,20 +185,15 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Dialog.h" />
     <ClInclude Include="Dialog2.h" />
-    <ClInclude Include="MainFrm.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="第八周实验四.h" />
-    <ClInclude Include="第八周实验四Doc.h" />
-    <ClInclude Include="第八周实验四View.h" />
+    <ClInclude Include="第八周实验四Dlg.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Dialog.cpp" />
     <ClCompile Include="Dialog2.cpp" />
-    <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -206,8 +201,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="第八周实验四.cpp" />
-    <ClCompile Include="第八周实验四Doc.cpp" />
-    <ClCompile Include="第八周实验四View.cpp" />
+    <ClCompile Include="第八周实验四Dlg.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="第八周实验四.rc" />
@@ -216,9 +210,7 @@
     <None Include="res\My.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\Toolbar.bmp" />
     <Image Include="res\第八周实验四.ico" />
-    <Image Include="res\第八周实验四Doc.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
